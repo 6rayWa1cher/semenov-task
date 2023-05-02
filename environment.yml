@@ -1,0 +1,16 @@
+name: semenov-task
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - cudatoolkit=11.8.0
+  - numpy
+  - pandas
+  - cuda-nvcc=11.3.58
+  - pip:
+      - nvidia-cudnn-cu11==8.6.0.163
+      - pip==23.1.2
+      - tensorflow==2.12.0
+      - pillow==9.5.0
+      - logzero==1.7.0
+prefix: /home/cat/miniconda3/envs/semenov-task
